@@ -1,4 +1,4 @@
-//****Assignment 10 Section 1 
+//Section 1 
 
 class scoreKeeper 
 {
@@ -85,7 +85,7 @@ class scoreKeeper
     }
 } 
 //********************************************************* 
-//****Assignment 10 Section 2 
+//Section 2 
 
 class baseball extends scoreKeeper
 {
@@ -161,7 +161,7 @@ class baseball extends scoreKeeper
 }
  
 
-//****Assignment 10 Section 3 
+//Section 3 
 
 console.log("Assignment 10 - Classes and Inheritance"); 
 console.log(" "); 
@@ -191,7 +191,7 @@ gameOne.listAllScores ();
 console.log(" "); 
 console.log(" "); 
  
-//****Assignment 10 Section 4 
+//Section 4 
 
 console.log("Section 4: Derived Class Results: Baseball scoring"); 
 console.log(" "); 
