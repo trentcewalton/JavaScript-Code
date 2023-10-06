@@ -1,4 +1,4 @@
-//Assigment 4 Section 1
+//Section 1
 
 cars = []; 
     
@@ -24,7 +24,7 @@ cars = [];
         console.log(cars[i].make + " " + cars[i].model + " " + cars[i].modelYear); 
     }
 
-//Assignment 4 Section 2
+//Section 2
 
 inventoryCount = {};
 
@@ -39,7 +39,7 @@ console.log("There are " + inventoryCount.Mustang + " Mustangs.");
 console.log("There are " + inventoryCount.Silverado + " Silverados."); 
 console.log("There are " + inventoryCount.Charger + " Chargers.");
 
-//Assignment 4 Section 3
+// Section 3
 
 daysOfWeek = [];
 
@@ -84,7 +84,7 @@ for (var i = 0; i < workDays.length; i++)
     console.log(workDays[i]); 
 }
 
-//Assignment 4 Section 4
+// Section 4
 
 console.log();
 console.log("Section 4: Stack"); 
@@ -108,7 +108,7 @@ console.log("There are " + myStack.length + " items on the stack.");
 
 console.log("The next item to be popped from the stack is " + myStack[myStack.length-1] + ".");
 
-//Assignment 4 Section 5
+//Section 5
 
 console.log();
 console.log("Section 5: Queue");
