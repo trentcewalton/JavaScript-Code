@@ -1,4 +1,4 @@
-// *** *Assignment 3 Section 1 
+// ***Section 1 
     var salesRegions = [ 
 ["North","","",""], 
 ["West","","",""], 
@@ -32,7 +32,7 @@
         }
         console.log(""); 
     }
-    // *** *Assignment 3 Section 2 
+    // **Section 2 
 
     var salesTeam = [];
 
