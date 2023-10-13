@@ -1,0 +1,28 @@
+form 
+
+{ 
+    text-align:center; 
+    margin: auto; 
+    height:580px; 
+    width:350px; 
+    border:5px solid black;
+}
+
+form input
+{ 
+    height:85px; 
+    width:70px; 
+    margin:5px; 
+    font-size:20pt; 
+    background-color:LightGray; 
+}
+
+.display 
+{ 
+height:65px; 
+width:325px; 
+margin:5px; 
+font-size:24pt; 
+text-indent:10px; 
+background-color:AliceBlue; 
+}

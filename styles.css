@@ -1,0 +1,31 @@
+@charset "utf-8";
+#container {
+	width: 100%;
+}h1 {	padding: 10px;	border: 3px solid hidden;	border-radius: 5px 30px;	width:40%;	margin-left:30%;	text-align: center;	}
+h2 {	text-decoration: underline;	font-weight: bold;	}h4 {	color:#0072ce;}
+
+body {
+	background-color:#6cace4; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+}	/* commenting out the background shape.bg {	height: 100%;	width:100%;	background-color: #000000;	clip-path: polygon(100% 16%, 100% 54%, 0 55%, 0 16%);	position: absolute;	z-index: -1;	margin:0;	padding:0;}*/header {	margin-left: 20%;	width: 60%;}nav {	padding:20px;	margin-left:40%;	color: #ffffff;	}
+
+main {	
+	background-color:#ffffff;	width: 80%;	padding: 10px;	border: 5px solid #ffb81c;	margin-left: 9%;	border-radius: 20px;
+}footer {	color:#ffffff;	padding:5%;	text-align:center;}/* formatting the UL containing all links*/.links {	list-style-type:none;	margin:0;	padding:0;	line-height: 1.4;	}
+/* creates three equals columns*/
+.columns {
+	float: left;
+	width: 30%;
+	padding:10px;
+}
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;	
+}/* .button is for the delivery agents to poke fun */.button {	background-color:#B22222;	color: #ffffff;	font-weight: bold;	text-align: center;	font-size: 16px;	padding:10px 15px ;	margin:0px 6%;	border: 2px solid #B22222;}
+.button:hover {	background-color: #ffffff;	color: #B22222;	border: 1px solid #B22222;}/* list is created for all formatting of my href's for agents*/.list {	border: 5px solid #ffb81c;	border-radius:20px;	background-color:#ffffff;}
+	a:link {		color:#003087;}	a:visited {		color:#003087;}	a:hover {		color:#ffb81c;}/*button2 is to help direct agents back to TL's if still needing help*/
+.button2 {	background-color:#ffb81c;	color: #ffffff;	text-align: center;	font-weight: bold;	font-size: 16px;	margin: 15px 9%;	padding: 10px 15px;	border: 2px solid #003087;}.button2:hover {	background-color: #ffffff;	color: #ffb81c;	border: 2px solid #003087;}/* not currently using a 3rd button#button3 {	background-color:#ff99ff;	color: #fff;	text-align: center;	font-weight: bold;	font-size: 16px;	margin: 15px 9%;	padding: 10px 15px;	border: 2px solid #003087;}#button3:hover {	background-color: #ffffff;	color: #ff99ff;	border: 2px solid #003087;}*//*classes for the collapsible buttons, and formatting of how I want them to look and interact*/.collapsible {  background-color:#0072ce;  color:#fff;  font-weight: bold;  cursor: pointer;  padding: 18px;  width: 100%;  border: none;  text-align:center;  outline: 2px solid #6cace4;  font-size: 16px;}.active, .collapsible:hover {  background-color: #fff;  color: #000;  }.content {  padding: 0 18px;  max-height: 0;  overflow: hidden;  transition: max-height 0.2s ease-out;  background-color: #f1f1f1;
